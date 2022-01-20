@@ -1,6 +1,12 @@
 /* Start global rules*/
 body {
    height: 4000px;
+   
+}
+
+/* start navbar*/
+.scrolled {
+   background-color: rgba(0, 0, 0, .5);
 }
 
 
