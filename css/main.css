@@ -59,6 +59,17 @@ body {
    margin-top: 20px;
 }
 
+.header form {
+   width: 360px;
+   background-color: #FFF;
+   border-radius: 5px;
+}
+
+.header form .h1 {
+   background-color: #f5f5f5;
+
+}
+
 
 /*Start Framework */
 .uppercase {
