@@ -114,31 +114,65 @@ body {
 
 /*Start tab section*/
 .tabs-section {
-   padding: 50px 0;
+   padding: 70px 0;
     background-color: #f5f5f5;
 }
+
+.tabs-section .tab-switch li {
+   background-color: #333;
+   color: #FFF;
+   border-bottom: 1px solid #FFF;
+   height: 110px;
+   line-height: 110px;
+   text-transform: uppercase;
+   font-size: 20px;
+   cursor: pointer;
+   
+ }
+ 
+ .tabs-section .tab-switch li.selected,
+ .tabs-section .tab-switch li:hover,
+ .header button:hover {
+    background-color: rgb(245, 182, 9);
+ }
+
+ .tabs-section .tabs-content div:not(.tab-one) {
+    display: none;
+ }
+
+ .tabs-section .tabs-content h3 {
+   margin-top: 0;
+   font-weight: bold;
+   letter-spacing: -1px;
+   margin-bottom: 20px;
+ }
+
+ .tabs-section .tabs-content .lead {
+    line-height: 1.6;
+    font-size: 18px;
+    color: #7e7e7e;
+ }
+
+ .tabs-section .tabs-content button {
+    background-color: rgb(245, 182, 9);
+    color: #FFF;
+ }
+
+ .tabs-section .tabs-content img{
+   border: 0;
+    width: -webkit-fill-available;
+    height: max-content;
+ }
+ 
+
+
+
+
 /*Start Framework */
 .uppercase {
    text-transform: uppercase;
 }
 
-.tabs-section .tab-switch li {
-  background-color: #333;
-  color: #FFF;
-  border-bottom: 1px solid #FFF;
-  height: 110px;
-  line-height: 110px;
-  text-transform: uppercase;
-  font-size: 20px;
-  cursor: pointer;
-  
-}
-
-.tabs-section .tab-switch li.selected,
-.tabs-section .tab-switch li:hover,
-.header button:hover {
-   background-color: rgb(245, 182, 9);
-}
 
 
 
