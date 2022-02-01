@@ -164,6 +164,15 @@ body {
     height: max-content;
  }
  
+ /*Start sublist section*/
+ .sublist {
+  padding: 80px 0;
+ }
+
+ .sublist .sub-image {
+    margin-top: 50px;
+    width: 428px;
+ }
 
 
 
