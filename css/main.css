@@ -174,12 +174,42 @@ body {
     width: 428px;
  }
 
+ .sublist h3 {
+    font-weight: bold;
+ }
+
+ .sublist .sublist-desc {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 30px;
+ }
+
+ .sublist .list-icon i {
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+ }
+
+
 
 
 
 /*Start Framework */
 .uppercase {
    text-transform: uppercase;
+}
+
+.head-border:after {
+   content: "";
+   display: block;
+   width: 65px;
+   height: 3px;
+   background-color:rgb(245, 182, 9) ;
+   margin: 25px 0;
 }
 
 
